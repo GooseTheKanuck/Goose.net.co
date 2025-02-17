@@ -1,0 +1,28 @@
+html {
+  height: 100%;
+  width: 80%;
+  background-color: black;
+  margin: 50px 20vw;
+  
+}
+body {
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  width:60vw;
+}
+
+.header {
+  font-weight: bold;
+  text-align: right;
+}
+
+a {
+  color: white
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
