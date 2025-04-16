@@ -13,12 +13,12 @@ body {
 
 .leftHeader {
   font-weight: bold;
-  align-items: left;
+  align-content: flex-start;
 }
 
 .rightHeader {
   font-weight: bold;
-  align-items: right;
+  align-content: flex-end;
 }
 
 a {
