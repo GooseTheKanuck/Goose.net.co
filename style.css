@@ -11,9 +11,14 @@ body {
   width:60vw;
 }
 
-.header {
+.rightHeader {
   font-weight: bold;
   text-align: right;
+}
+
+.leftHeader {
+  font-weight: bold;
+  text-align: left;
 }
 
 a {
