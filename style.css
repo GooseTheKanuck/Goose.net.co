@@ -14,11 +14,13 @@ body {
 .leftHeader {
   font-weight: bold;
   align-content: flex-start;
+  border: solid;
 }
 
 .rightHeader {
   font-weight: bold;
   align-content: flex-end;
+  border: solid;
 }
 
 a {
