@@ -11,17 +11,17 @@ body {
   width:60vw;
 }
 
-.leftHeader {
-  font-weight: bold;
-  justify-content: left;
-  border: solid;
-}
-
-.rightHeader {
-  font-weight: bold;
-  justify-content: right;
-  border: solid;
-}
+header{
+  width: min(100%, 1440px);
+  margin-inline: auto; 
+  display: flex;
+  justify-content: flex-start;  
+  align-items: center;
+   }
+  
+  a.rightHeader{
+  margin-right:auto;
+  }  
 
 a {
   color: white
