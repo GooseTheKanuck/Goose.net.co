@@ -14,7 +14,7 @@ body {
 header{
   color: white;
   font-family: 'Courier New', Courier, monospace;
-  align-content: right;
+  justify-content: end;
   }  
 
 a {
