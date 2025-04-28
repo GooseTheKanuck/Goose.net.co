@@ -12,15 +12,9 @@ body {
 }
 
 header{
-  width: min(100%, 1440px);
-  margin-inline: auto; 
-  display: flex;
-  justify-content: flex-start;  
-  align-items: center;
-   }
-  
-  a.rightHeader{
-  margin-right:auto;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  align-content: right;
   }  
 
 a {
