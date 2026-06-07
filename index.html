@@ -55,6 +55,20 @@
 
 <script>
 
+fetch('https://api.airplanes.live/v2/icao/45211e/point/43.905/-78.948/30').then(response =>
+  {
+    if (response.ok) {
+      return response.json(); // Parse the response data as JSON
+    } else {
+      throw new Error('API request failed');
+    }
+  })
+
+ // .then(data => {
+    // Process the response data here
+ //   console.log(data); // Example: Logging the data to the console
+ // })
+  
 </script>
 
 </html>
